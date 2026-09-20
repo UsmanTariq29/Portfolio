@@ -7,10 +7,11 @@ export function About() {
     <section id="about" className="bg-white py-20 sm:py-28">
       <Container className="grid items-start gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
         <div>
-                  <img src="/CEO-pic.jpg" alt="Usman Tariq" className="h-full w-full object-cover" />          <div className="flex aspect-square w-full max-w-xs items-center justify-center rounded-xl border border-line bg-navy-50">
+                  <img src="/CEO-pic.jpg" alt="Usman Tariq" className="h-full w-full object-cover" />
+    <div className="flex aspect-square w-full max-w-xs items-center justify-center rounded-xl border border-line bg-navy-50">
             <User className="h-16 w-16 text-navy-300" aria-hidden="true" />
-          </div>
-        </div>
+                  </div>
+              </div>
 
         <div>
           <h2 className="font-serif text-3xl font-semibold leading-tight text-navy-900 sm:text-4xl">
