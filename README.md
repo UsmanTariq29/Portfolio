@@ -1,12 +1,12 @@
 # Zavryon Software & Business Solutions
 
-The portfolio and marketing website for [AGENCY NAME] — a software and automation consultancy for small and mid-sized businesses.
+The portfolio and marketing website for Zavryon Software & Business Solutions — a software and automation consultancy for small and mid-sized businesses.
 
 **We Solve Problems. You Grow.**
 
 ## About
 
-[AGENCY NAME] builds websites, custom software, business process automation, and AI-powered solutions for small and mid-sized businesses. The focus is practical: understand how a business actually operates, then build or automate around that — rather than forcing a business into a generic platform.
+Zavryon Software & Business Solutions builds websites, custom software, business process automation, and AI-powered solutions for small and mid-sized businesses. The focus is practical: understand how a business actually operates, then build or automate around that — rather than forcing a business into a generic platform.
 
 This repository is the agency's own website, built as a real, production-quality React application rather than a static mockup.
 
