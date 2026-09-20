@@ -38,6 +38,24 @@ This repository is the agency's own website, built as a real, production-quality
 - Semantic HTML, visible focus states, labeled form fields, and `prefers-reduced-motion` support
 - SEO basics: descriptive `<title>`, meta description, Open Graph/Twitter tags, `robots.txt`, and `sitemap.xml`
 
+## Branding
+
+Brand guidelines for repository strings and site metadata:
+
+- Primary visual brand: **ZAVRYON** — use this uppercase form for compact/visual elements such as the site header logo, favicon badges, small-brand lockups, and any short mark.
+- Full company/descriptor: **Zavryon Software & Business Solutions** — use this where the legal or descriptive name is appropriate (SEO page titles, meta descriptions, canonical/Open Graph `og:site_name`, legal footer text, README headings).
+- Tagline: **We Solve Problems. You Grow.** — use this exact sentence in marketing copy and site metadata where a tagline is shown.
+- Do not change layout, colors, animations, components, functionality, or service/portfolio content except to replace old ZAVRYONs/placeholders.
+- Avoid adding new client/testimonial/award content while updating branding.
+
+When updating files, search for these legacy tokens and names and replace them consistently:
+
+- `[AGENCY NAME]` -> `ZAVRYON` or `Zavryon Software & Business Solutions` depending on context
+- `[AGENCY]` -> `ZAVRYON`
+- Any prior agency names (for example: Solvexa, Axivora, Solyra) -> `ZAVRYON` or `Zavryon Software & Business Solutions` depending on context
+
+Add or update only the strings; do not redesign or restructure files.
+
 ## Running Locally
 
 Requires Node.js 18+.

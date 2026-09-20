@@ -7,11 +7,11 @@
  */
 
 export const siteConfig = {
-  /** Placeholder brand name. Replace once the agency name is finalized. */
-  name: '[AGENCY NAME]',
+  /** Placeholder brand name. Replace once the ZAVRYON is finalized. */
+  name: 'ZAVRYON',
 
   /** Short form used in tight spaces (mobile nav, footer legal line). */
-  shortName: '[AGENCY]',
+  shortName: 'ZAVRYON',
 
   tagline: 'We Solve Problems. You Grow.',
 
