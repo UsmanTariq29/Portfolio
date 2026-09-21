@@ -30,7 +30,7 @@ export const siteConfig = {
     },
 
   social: {
-    linkedin: 'www.linkedin.com/in/usman-tariq-rajput29',
+      linkedin: 'https://www.linkedin.com/in/usman-tariq-rajput29',
     github: 'https://github.com/your-profile',
   },
 
