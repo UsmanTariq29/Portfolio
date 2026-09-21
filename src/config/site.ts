@@ -25,7 +25,9 @@ export const siteConfig = {
 
   contact: {
     email: 'contact@zavryon.com',
-  },
+        phone: '+1 (555) 010-0100',
+        location: 'United States (Remote)',
+    },
 
   social: {
     linkedin: 'www.linkedin.com/in/usman-tariq-rajput29',

@@ -114,14 +114,14 @@ export function Contact() {
             </a>
           </div>
 
-          <p className="mt-8 text-xs leading-relaxed text-steel">
-            Note: this form currently stores your message locally in the
-            browser only — no email or CRM is connected yet. See{' '}
-            <code className="rounded bg-navy-50 px-1 py-0.5">
-              src/lib/contactForm.ts
-            </code>{' '}
-            for where to plug in Formspree, EmailJS, Resend, or a custom API.
-          </p>
+          {/*<p className="mt-8 text-xs leading-relaxed text-steel">*/}
+          {/*  Note: this form currently stores your message locally in the*/}
+          {/*  browser only — no email or CRM is connected yet. See{' '}*/}
+          {/*  <code className="rounded bg-navy-50 px-1 py-0.5">*/}
+          {/*    src/lib/contactForm.ts*/}
+          {/*  </code>{' '}*/}
+          {/*  for where to plug in Formspree, EmailJS, Resend, or a custom API.*/}
+          {/*</p>*/}
         </div>
 
         <form
