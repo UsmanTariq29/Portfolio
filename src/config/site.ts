@@ -24,13 +24,11 @@ export const siteConfig = {
   },
 
   contact: {
-    email: 'hello@example.com',
-    phone: '+1 (555) 010-0100',
-    location: 'United States (Remote)',
+    email: 'contact@zavryon.com',
   },
 
   social: {
-    linkedin: 'https://linkedin.com/in/your-profile',
+    linkedin: 'www.linkedin.com/in/usman-tariq-rajput29',
     github: 'https://github.com/your-profile',
   },
 
