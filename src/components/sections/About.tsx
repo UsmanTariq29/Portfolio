@@ -1,4 +1,3 @@
-import { User } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { siteConfig } from '@/config/site'
 
