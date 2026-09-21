@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 800" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+<rect x="0" y="0" width="1240" height="800" rx="16" fill="#FFFFFF" stroke="#E4E3DC" stroke-width="1.5"/>
+<rect x="0" y="0" width="1240" height="40" rx="16" fill="#EEF3F6"/>
+<rect x="0" y="20" width="1240" height="20" rx="0" fill="#EEF3F6"/>
+<circle cx="28" cy="20" r="6" fill="#E4756A"/>
+<circle cx="48" cy="20" r="6" fill="#E8B84B"/>
+<circle cx="68" cy="20" r="6" fill="#4FA37C"/>
+<text x="620.0" y="25" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="middle">leadflow.app / dashboard</text>
+<line x1="0" y1="40" x2="1240" y2="40" stroke="#E4E3DC" stroke-width="1.5"/>
+<rect x="0" y="40" width="216" height="760" rx="0" fill="#0F2A3D"/>
+<rect x="28" y="72" width="30" height="30" rx="8" fill="#1E7A5F"/>
+<text x="43" y="92" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">L</text>
+<text x="70" y="92" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="16.5" font-weight="700" fill="#FFFFFF" text-anchor="start">LeadFlow</text>
+<circle cx="40" cy="120" r="4" fill="#D6E1E8"/>
+<text x="56" y="125" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="500" fill="#D6E1E8" text-anchor="start">Dashboard</text>
+<rect x="16" y="152" width="184" height="40" rx="8" fill="#183A4E"/>
+<rect x="16" y="152" width="3" height="40" rx="2" fill="#1E7A5F"/>
+<circle cx="40" cy="172" r="4" fill="#1E7A5F"/>
+<text x="56" y="177" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Leads</text>
+<circle cx="40" cy="224" r="4" fill="#D6E1E8"/>
+<text x="56" y="229" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="500" fill="#D6E1E8" text-anchor="start">Automations</text>
+<circle cx="40" cy="276" r="4" fill="#D6E1E8"/>
+<text x="56" y="281" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="500" fill="#D6E1E8" text-anchor="start">Integrations</text>
+<circle cx="40" cy="328" r="4" fill="#D6E1E8"/>
+<text x="56" y="333" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="500" fill="#D6E1E8" text-anchor="start">Reports</text>
+<circle cx="40" cy="380" r="4" fill="#D6E1E8"/>
+<text x="56" y="385" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13.5" font-weight="500" fill="#D6E1E8" text-anchor="start">Settings</text>
+<rect x="216" y="40" width="1024" height="72" rx="10" fill="#FFFFFF"/>
+<line x1="216" y1="112" x2="1240" y2="112" stroke="#E4E3DC" stroke-width="1"/>
+<text x="248" y="84" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="21" font-weight="700" fill="#0B1E2A" text-anchor="start">Leads</text>
+<text x="248" y="102" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">All leads captured from your website and forms</text>
+<circle cx="1184" cy="76" r="16" fill="#EEF3F6" stroke="#D6E1E8" stroke-width="1"/>
+<text x="1184" y="81" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="700" fill="#183A4E" text-anchor="middle">US</text>
+<rect x="248" y="132" width="225.0" height="92" rx="12" fill="#F6F6F2" stroke="#E4E3DC" stroke-width="1"/>
+<text x="266" y="162" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#5C7080" text-anchor="start">New Leads Today</text>
+<text x="266" y="194" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#0B1E2A" text-anchor="start">18</text>
+<text x="266" y="212" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#134C39" text-anchor="start">+6 vs. yesterday</text>
+<rect x="493.0" y="132" width="225.0" height="92" rx="12" fill="#F6F6F2" stroke="#E4E3DC" stroke-width="1"/>
+<text x="511.0" y="162" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#5C7080" text-anchor="start">Qualified</text>
+<text x="511.0" y="194" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#0B1E2A" text-anchor="start">11</text>
+<text x="511.0" y="212" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#134C39" text-anchor="start">61% qualify rate</text>
+<rect x="738.0" y="132" width="225.0" height="92" rx="12" fill="#F6F6F2" stroke="#E4E3DC" stroke-width="1"/>
+<text x="756.0" y="162" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#5C7080" text-anchor="start">Follow-ups Sent</text>
+<text x="756.0" y="194" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#0B1E2A" text-anchor="start">34</text>
+<text x="756.0" y="212" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#134C39" text-anchor="start">Automated</text>
+<rect x="983.0" y="132" width="225.0" height="92" rx="12" fill="#F6F6F2" stroke="#E4E3DC" stroke-width="1"/>
+<text x="1001.0" y="162" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" fill="#5C7080" text-anchor="start">Avg. Response Time</text>
+<text x="1001.0" y="194" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#0B1E2A" text-anchor="start">4 min</text>
+<text x="1001.0" y="212" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#134C39" text-anchor="start">From capture to reply</text>
+<rect x="248" y="252" width="960" height="330" rx="12" fill="#FFFFFF" stroke="#E4E3DC" stroke-width="1"/>
+<text x="272" y="284" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14.5" font-weight="700" fill="#0B1E2A" text-anchor="start">Recent leads</text>
+<text x="1176" y="284" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#5C7080" text-anchor="end">Last 24 hours</text>
+<text x="272" y="312" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#5C7080" text-anchor="start">Lead</text>
+<text x="536" y="312" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#5C7080" text-anchor="start">Source</text>
+<text x="686" y="312" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#5C7080" text-anchor="start">Status</text>
+<text x="836" y="312" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#5C7080" text-anchor="start">Assigned Automation</text>
+<text x="1096" y="312" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#5C7080" text-anchor="start">Last Activity</text>
+<line x1="248" y1="326" x2="1208" y2="326" stroke="#E4E3DC" stroke-width="1"/>
+<text x="272" y="356" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#0B1E2A" text-anchor="start">Riverside Plumbing Co.</text>
+<text x="536" y="356" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">Website form</text>
+<rect x="676" y="340" width="118" height="24" rx="12.0" fill="#EFF4FE"/>
+<text x="735.0" y="355.85" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#2563EB" text-anchor="middle">New</text>
+<text x="836" y="356" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#2B3E4A" text-anchor="start">Auto-qualify + notify</text>
+<text x="1096" y="356" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">2 min ago</text>
+<line x1="272" y1="372" x2="1184" y2="372" stroke="#E4E3DC" stroke-width="1"/>
+<text x="272" y="398" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#0B1E2A" text-anchor="start">Bright Smile Dental</text>
+<text x="536" y="398" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">Landing page</text>
+<rect x="676" y="382" width="118" height="24" rx="12.0" fill="#CFE8DD"/>
+<text x="735.0" y="397.85" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#134C39" text-anchor="middle">Qualified</text>
+<text x="836" y="398" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#2B3E4A" text-anchor="start">Follow-up sequence (3-step)</text>
+<text x="1096" y="398" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">18 min ago</text>
+<line x1="272" y1="414" x2="1184" y2="414" stroke="#E4E3DC" stroke-width="1"/>
+<text x="272" y="440" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#0B1E2A" text-anchor="start">Summit Auto Detailing</text>
+<text x="536" y="440" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">Referral form</text>
+<rect x="676" y="424" width="118" height="24" rx="12.0" fill="#FDF3E7"/>
+<text x="735.0" y="439.85" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#B45309" text-anchor="middle">Contacted</text>
+<text x="836" y="440" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#2B3E4A" text-anchor="start">Booking reminder sent</text>
+<text x="1096" y="440" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">1 hr ago</text>
+<line x1="272" y1="456" x2="1184" y2="456" stroke="#E4E3DC" stroke-width="1"/>
+<text x="272" y="482" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#0B1E2A" text-anchor="start">GreenLeaf Landscaping</text>
+<text x="536" y="482" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">Website form</text>
+<rect x="676" y="466" width="118" height="24" rx="12.0" fill="#F2EDFC"/>
+<text x="735.0" y="481.85" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#6D28D9" text-anchor="middle">Follow-up sent</text>
+<text x="836" y="482" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#2B3E4A" text-anchor="start">Follow-up sequence (3-step)</text>
+<text x="1096" y="482" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">3 hrs ago</text>
+<line x1="272" y1="498" x2="1184" y2="498" stroke="#E4E3DC" stroke-width="1"/>
+<text x="272" y="524" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#0B1E2A" text-anchor="start">Hilltop Bakery</text>
+<text x="536" y="524" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">Landing page</text>
+<rect x="676" y="508" width="118" height="24" rx="12.0" fill="#CFE8DD"/>
+<text x="735.0" y="523.85" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#134C39" text-anchor="middle">Qualified</text>
+<text x="836" y="524" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#2B3E4A" text-anchor="start">Synced to CRM</text>
+<text x="1096" y="524" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">5 hrs ago</text>
+<line x1="272" y1="540" x2="1184" y2="540" stroke="#E4E3DC" stroke-width="1"/>
+<text x="272" y="566" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#0B1E2A" text-anchor="start">Metro Fitness Studio</text>
+<text x="536" y="566" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">Referral form</text>
+<rect x="676" y="550" width="118" height="24" rx="12.0" fill="#EFF4FE"/>
+<text x="735.0" y="565.85" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#2563EB" text-anchor="middle">New</text>
+<text x="836" y="566" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#2B3E4A" text-anchor="start">Auto-qualify + notify</text>
+<text x="1096" y="566" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#5C7080" text-anchor="start">Yesterday</text>
+<rect x="248" y="600" width="470.0" height="130" rx="12" fill="#F6F6F2" stroke="#E4E3DC" stroke-width="1"/>
+<text x="268" y="626" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0B1E2A" text-anchor="start">Lead sources this week</text>
+<rect x="268" y="652.2" width="127.33333333333334" height="55.800000000000004" rx="4" fill="#1E7A5F"/>
+<text x="331.6666666666667" y="724" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="400" fill="#5C7080" text-anchor="middle">Website</text>
+<rect x="419.33333333333337" y="669.56" width="127.33333333333334" height="38.44" rx="4" fill="#1E7A5F"/>
+<text x="483.00000000000006" y="724" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="400" fill="#5C7080" text-anchor="middle">Landing pages</text>
+<rect x="570.6666666666667" y="684.44" width="127.33333333333334" height="23.56" rx="4" fill="#1E7A5F"/>
+<text x="634.3333333333334" y="724" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="10" font-weight="400" fill="#5C7080" text-anchor="middle">Referral form</text>
+<rect x="738.0" y="600" width="470.0" height="130" rx="12" fill="#F6F6F2" stroke="#E4E3DC" stroke-width="1"/>
+<text x="758.0" y="626" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#0B1E2A" text-anchor="start">Qualified-lead trend (30 days)</text>
+<path d="M 758.0 684.8 L 829.7 675.2 L 901.3 678.4 L 973.0 665.6 L 1044.7 662.4 L 1116.3 659.2 L 1188.0 651.5" fill="none" stroke="#1E7A5F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="758.0" cy="684.8" r="3" fill="#1E7A5F"/>
+<circle cx="829.6666666666666" cy="675.2" r="3" fill="#1E7A5F"/>
+<circle cx="901.3333333333334" cy="678.4" r="3" fill="#1E7A5F"/>
+<circle cx="973.0" cy="665.6" r="3" fill="#1E7A5F"/>
+<circle cx="1044.6666666666667" cy="662.4" r="3" fill="#1E7A5F"/>
+<circle cx="1116.3333333333335" cy="659.2" r="3" fill="#1E7A5F"/>
+<circle cx="1188.0" cy="651.52" r="3" fill="#1E7A5F"/>
+</svg>

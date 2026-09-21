@@ -7,6 +7,7 @@ const footerLinks = [
   { href: '#how-we-help', label: 'How We Help' },
   { href: '#portfolio', label: 'Portfolio' },
   { href: '#about', label: 'About' },
+  { href: '#faq', label: 'FAQ' },
   { href: '#contact', label: 'Contact' },
 ]
 
@@ -81,7 +82,6 @@ export function Footer() {
           <p>
             &copy; {year} {siteConfig.name}. All rights reserved.
           </p>
-          <p>Portfolio projects shown on this site are concept/demo projects unless explicitly identified otherwise.</p>
         </div>
       </Container>
     </footer>

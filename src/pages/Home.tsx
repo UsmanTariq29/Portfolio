@@ -5,6 +5,7 @@ import { Solutions } from '@/components/sections/Solutions'
 import { TrustSection } from '@/components/sections/TrustSection'
 import { Portfolio } from '@/components/sections/Portfolio'
 import { About } from '@/components/sections/About'
+import { FAQ } from '@/components/sections/FAQ'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { Contact } from '@/components/sections/Contact'
 
@@ -18,6 +19,7 @@ export function Home() {
       <TrustSection />
       <Portfolio />
       <About />
+      <FAQ />
       <CTABanner />
       <Contact />
     </>
