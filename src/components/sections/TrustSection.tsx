@@ -3,7 +3,7 @@ import { Container } from '@/components/ui/Container'
 
 const points = [
   'A clear, defined process from first conversation to delivery',
-  'Transparent scoping — you know what is being built and why',
+  'Transparent scoping you know what is being built and why',
   'Solutions designed around your workflow, not a generic template',
   'Direct communication with the person doing the work',
 ]
