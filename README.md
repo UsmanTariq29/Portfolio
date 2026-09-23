@@ -25,7 +25,7 @@ This repository is the agency's own website, built as a real, production-quality
 - [Vite](https://vitejs.dev/) for tooling and dev server
 - [Tailwind CSS](https://tailwindcss.com/) for styling
 - [Lucide](https://lucide.dev/) for icons
-- No backend, database, or CMS — content is data-driven from local config/data files
+- No backend, database, or CMS content is data-driven from local config/data files
 
 ## Features
 

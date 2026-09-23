@@ -19,7 +19,7 @@ export function TrustSection() {
           <p className="mt-5 text-base leading-relaxed text-ink-soft sm:text-lg">
             Every business runs a little differently. Rather than fitting you
             into a pre-built platform, we start by understanding how your
-            business actually operates and design the solution around that —
+            business actually operates and design the solution around that
             not the other way around.
           </p>
         </div>

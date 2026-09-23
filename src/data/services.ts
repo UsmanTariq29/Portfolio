@@ -23,7 +23,7 @@ export const services: Service[] = [
     icon: Globe,
     title: 'Website Development & Improvement',
     problem:
-      "Your website is often a customer's first impression — and an outdated or confusing one costs you leads before a conversation even starts.",
+      "Your website is often a customer's first impression and an outdated or confusing one costs you leads before a conversation even starts.",
     whatWeDo:
       'We design and build fast, professional websites, or improve an existing one, with clear messaging and a layout that guides visitors toward contacting you.',
     outcome:
@@ -36,7 +36,7 @@ export const services: Service[] = [
     problem:
       'Off-the-shelf tools rarely match how your business actually operates, forcing your team into awkward workarounds and spreadsheets.',
     whatWeDo:
-      'We build software designed around your existing workflow — internal tools, client portals, dashboards, and booking or scheduling systems.',
+      'We build software designed around your existing workflow internal tools, client portals, dashboards, and booking or scheduling systems.',
     outcome:
       'A tool your team actually wants to use, because it fits the way you already work instead of forcing you to change it.',
   },
@@ -45,7 +45,7 @@ export const services: Service[] = [
     icon: Workflow,
     title: 'Business Process Automation',
     problem:
-      'Repetitive manual tasks — data entry, follow-ups, scheduling, reporting — quietly consume hours every week.',
+      'Repetitive manual tasks data entry, follow-ups, scheduling, reporting quietly consume hours every week.',
     whatWeDo:
       'We map out repetitive workflows and automate the manual steps, connecting the tools you already use so information moves on its own.',
     outcome:
@@ -58,7 +58,7 @@ export const services: Service[] = [
     problem:
       "Most businesses know AI could help somewhere, but aren't sure where it fits or whether it's worth the investment.",
     whatWeDo:
-      'We identify practical, well-scoped AI opportunities — document processing, customer support assistance, content drafting, data summarization — and build them responsibly.',
+      'We identify practical, well-scoped AI opportunities document processing, customer support assistance, content drafting, data summarization and build them responsibly.',
     outcome:
       'AI applied to specific, measurable tasks instead of added for its own sake, with a clear understanding of what it does and does not do.',
   },
@@ -78,7 +78,7 @@ export const services: Service[] = [
     icon: Wrench,
     title: 'Website Maintenance & Technical Support',
     problem:
-      "A website or system that isn't maintained slowly falls behind — broken links, outdated plugins, security gaps, and no one available to fix them.",
+      "A website or system that isn't maintained slowly falls behind broken links, outdated plugins, security gaps, and no one available to fix them.",
     whatWeDo:
       'We provide ongoing maintenance, monitoring, updates, and technical support so your site and tools keep running reliably.',
     outcome:

@@ -20,7 +20,7 @@ export const portfolioProjects: PortfolioProject[] = [
     imageAlt:
       'LeadFlow dashboard showing captured leads, their status, and assigned follow-up automations.',
     problem:
-      'A small business receiving leads through its website with no consistent way to qualify, track, or follow up with them — leads sit in an inbox until someone remembers to respond.',
+      'A small business receiving leads through its website with no consistent way to qualify, track, or follow up with them leads sit in an inbox until someone remembers to respond.',
     solution:
       'A connected system that captures leads directly from the website, automatically qualifies them based on defined criteria, syncs them into a CRM, and triggers timely automated follow-up.',
     features: [
@@ -42,7 +42,7 @@ export const portfolioProjects: PortfolioProject[] = [
     imageAlt:
       'OpsFlow kanban board showing form submissions moving through Submitted, Processing, Review, and Complete stages.',
     problem:
-      'A small business where administrative work — intake forms, data entry, status updates — is repeated manually across multiple tools every day.',
+      'A small business where administrative work intake forms, data entry, status updates is repeated manually across multiple tools every day.',
     solution:
       'An automated pipeline that takes a form submission, processes and validates the data, routes it through the correct workflow, and updates connected systems automatically.',
     features: [

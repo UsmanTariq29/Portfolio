@@ -52,7 +52,7 @@ export function Contact() {
             <CheckCircle2 className="h-6 w-6" aria-hidden="true" />
           </div>
           <h2 className="mt-5 font-serif text-2xl font-semibold text-navy-900">
-            Thanks — your message has been captured.
+            Thanks your message has been captured.
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-steel">
             This form isn&apos;t connected to a live inbox yet. Until a

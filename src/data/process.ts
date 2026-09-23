@@ -14,7 +14,7 @@ export const processSteps: ProcessStep[] = [
     icon: Search,
     title: 'Understand the Problem',
     description:
-      'We start with a conversation about how your business actually runs today — the bottlenecks, the manual steps, and where things break down.',
+      'We start with a conversation about how your business actually runs today the bottlenecks, the manual steps, and where things break down.',
   },
   {
     step: 2,
@@ -28,7 +28,7 @@ export const processSteps: ProcessStep[] = [
     icon: Hammer,
     title: 'Build the Right Solution',
     description:
-      'We design and build a solution scoped to your actual needs — not an over-engineered platform, and not a fragile quick fix.',
+      'We design and build a solution scoped to your actual needs not an over-engineered platform, and not a fragile quick fix.',
   },
   {
     step: 4,

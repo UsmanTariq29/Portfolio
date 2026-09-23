@@ -9,7 +9,7 @@ export function FAQ() {
       <Container className="max-w-3xl">
         <SectionHeading
           title="Questions worth asking"
-          description="Fair questions to ask any agency before working together — answered directly."
+          description="Fair questions to ask any agency before working together answered directly."
         />
 
         <div className="mt-10 divide-y divide-line border-y border-line">

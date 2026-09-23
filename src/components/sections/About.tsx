@@ -31,9 +31,9 @@ export function About() {
               actually operates.
             </p>
             <p>
-              The work centers on practical software and automation —
+              The work centers on practical software and automation
               websites that convert, systems that connect, and workflows
-              that remove repetitive manual work — built with attention to
+              that remove repetitive manual work built with attention to
               both the technical details and the day-to-day reality of
               running a business.
             </p>
