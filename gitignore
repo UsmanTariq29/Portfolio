@@ -1,0 +1,13 @@
+node_modules/
+.vs/
+dist/
+*.tsbuildinfo
+
+.env
+.env.local
+.env*.local
+
+.vercel/
+
+.vscode/
+*.log

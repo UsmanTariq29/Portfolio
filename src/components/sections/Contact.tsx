@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react'
+import { useRef, useState, type FormEvent } from 'react'
 import { CheckCircle2, Mail, Linkedin, Github, AlertCircle } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { SectionHeading } from '@/components/ui/SectionHeading'
@@ -10,8 +10,8 @@ import {
   initialContactFormValues,
   helpTopics,
   validateContactForm,
-  submitContactForm,
 } from '@/lib/contactForm'
+import { submitContact, ContactSubmitError } from '@/lib/submitContact'
 
 type Status = 'idle' | 'submitting' | 'success' | 'error'
 
@@ -19,6 +19,11 @@ export function Contact() {
   const [values, setValues] = useState<ContactFormValues>(initialContactFormValues)
   const [errors, setErrors] = useState<Partial<Record<keyof ContactFormValues, string>>>({})
   const [status, setStatus] = useState<Status>('idle')
+  const [errorMessage, setErrorMessage] = useState('')
+  // Hidden honeypot field. Real visitors never see or fill it.
+  const [fax, setFax] = useState('')
+  // When the form was shown; submissions within a few seconds are treated as bots.
+  const startedAt = useRef(Date.now())
 
   function updateField<K extends keyof ContactFormValues>(field: K, value: string) {
     setValues((prev) => ({ ...prev, [field]: value }))
@@ -35,11 +40,21 @@ export function Contact() {
     }
 
     setStatus('submitting')
+    setErrorMessage('')
     try {
-      await submitContactForm(values)
+      await submitContact({ ...values, fax, startedAt: startedAt.current })
       setStatus('success')
       setValues(initialContactFormValues)
-    } catch {
+      setFax('')
+    } catch (err) {
+      if (err instanceof ContactSubmitError) {
+        if (err.fields && Object.keys(err.fields).length > 0) {
+          setErrors(err.fields as Partial<Record<keyof ContactFormValues, string>>)
+        }
+        setErrorMessage(err.message)
+      } else {
+        setErrorMessage('Something went wrong. Please try again or email us directly.')
+      }
       setStatus('error')
     }
   }
@@ -52,23 +67,27 @@ export function Contact() {
             <CheckCircle2 className="h-6 w-6" aria-hidden="true" />
           </div>
           <h2 className="mt-5 font-serif text-2xl font-semibold text-navy-900">
-            Thanks your message has been captured.
+            Thanks, your request has been sent.
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-steel">
-            This form isn&apos;t connected to a live inbox yet. Until a
-            backend is wired up, please also reach out directly at{' '}
+            We&apos;ve received your message and will reply to the email
+            address you provided. If anything is urgent, you can also reach
+            us at{' '}
             <a
               href={`mailto:${siteConfig.contact.email}`}
               className="font-medium text-signal-700 underline underline-offset-2"
             >
               {siteConfig.contact.email}
-            </a>{' '}
-            so nothing gets missed.
+            </a>
+            .
           </p>
           <Button
             variant="secondary"
             className="mt-6"
-            onClick={() => setStatus('idle')}
+            onClick={() => {
+              startedAt.current = Date.now()
+              setStatus('idle')
+            }}
           >
             Send another message
           </Button>
@@ -230,7 +249,7 @@ export function Contact() {
               className="flex items-start gap-2.5 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700"
             >
               <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
-              Something went wrong. Please try again or email us directly.
+              {errorMessage || 'Something went wrong. Please try again or email us directly.'}
             </div>
           )}
 
@@ -242,6 +261,20 @@ export function Contact() {
           >
             {status === 'submitting' ? 'Sending…' : siteConfig.cta.primary}
           </Button>
+
+          {/* Honeypot (kept last so it doesn't affect form spacing): hidden from people and screen readers, bots tend to fill it. */}
+          <div aria-hidden="true" className="absolute -left-[9999px] h-px w-px overflow-hidden">
+            <label htmlFor="fax">Leave this field empty</label>
+            <input
+              id="fax"
+              name="fax"
+              type="text"
+              tabIndex={-1}
+              autoComplete="off"
+              value={fax}
+              onChange={(e) => setFax(e.target.value)}
+            />
+          </div>
         </form>
       </Container>
     </section>
